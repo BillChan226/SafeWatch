@@ -1,8 +1,9 @@
+# [SafeWatch: An Efficient Safety-Policy Following Video Guardrail Model with Transparent Explanations](https://safewatch-aiguard.github.io/)
+
 <div align="center">
   <img src="assets/logo.png" width="32%">
 </div>
 
-## [SafeWatch: An Efficient Safety-Policy Following Video Guardrail Model with Transparent Explanations](https://safewatch-aiguard.github.io/)
 
 🔥🔥 Recent news please check **[Project page](https://safewatch-aiguard.github.io/)** !
 
