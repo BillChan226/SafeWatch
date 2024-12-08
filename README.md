@@ -1,7 +1,7 @@
 # [SafeWatch: An Efficient Safety-Policy Following Video Guardrail Model with Transparent Explanations](https://safewatch-aiguard.github.io/)
 
 <div align="center">
-  <img src="assets/logo.png" width="32%">
+  <img src="assets/logo.png" width="25%">
 </div>
 
 
@@ -25,5 +25,7 @@
 <sup>3</sup>University of Wisconsin, Madison, <sup>4</sup>University of California, Berkeley <br> -->
 
 <div align="center">
-  <img src="assets/method.png" width="95%">
+  <img src="assets/dataset.png" width="95%">
 </div>
+
+(Code coming soon)
