@@ -7,7 +7,7 @@
 
 🔥🔥 Recent news please check **[Project page](https://safewatch-aiguard.github.io/)** !
 
-[![Project Page](https://img.shields.io/badge/Project-Page-Green)](https://billchan226.github.io/AgentPoison.html)
+[![Project Page](https://img.shields.io/badge/Project-Page-Green)](https://safewatch-aiguard.github.io/)
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2407.12784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBillChan226%2FSafeWatch&count_bg=%23FF3100&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -28,4 +28,27 @@
   <img src="assets/dataset.png" width="95%">
 </div>
 
-(Code coming soon)
+### (🔥Code coming soon, please check the [Project page](https://safewatch-aiguard.github.io/) for more details)
+
+
+
+## :book: Acknowledgement
+Please cite the paper as follows if you use the data or code from SafeWatch:
+```
+@misc{chen2024safewatch,
+      title={AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases}, 
+      author={Zhaorun Chen and Zhen Xiang and Chaowei Xiao and Dawn Song and Bo Li},
+      year={2024},
+      eprint={2407.12784},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.12784}, 
+}
+```
+
+## :book: Contact
+Please reach out to us if you have any suggestions or need any help in reproducing the results. You can submit an issue or pull request, or send an email to zhaorun@uchicago.edu.
+
+## :key: License
+
+This repository is under [MIT License](LICENSE).
