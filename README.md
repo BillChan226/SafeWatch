@@ -8,7 +8,7 @@
 🔥🔥 Recent news please check **[Project page](https://safewatch-aiguard.github.io/)** !
 
 [![Project Page](https://img.shields.io/badge/Project-Page-Green)](https://safewatch-aiguard.github.io/)
-[![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2407.12784)
+[![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/pdf/2412.06878)
 [![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBillChan226%2FSafeWatch&count_bg=%23FF3100&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false)](https://hits.seeyoufarm.com)
 [![GitHub Stars](https://img.shields.io/github/stars/BillChan226/SafeWatch?style=social)](https://github.com/BillChan226/SafeWatch/stargazers)
@@ -35,14 +35,14 @@
 ## :book: Acknowledgement
 Please cite the paper as follows if you use the data or code from SafeWatch:
 ```
-@misc{chen2024safewatch,
-      title={AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases}, 
-      author={Zhaorun Chen and Zhen Xiang and Chaowei Xiao and Dawn Song and Bo Li},
+@misc{chen2024safewatchefficientsafetypolicyfollowing,
+      title={SafeWatch: An Efficient Safety-Policy Following Video Guardrail Model with Transparent Explanations}, 
+      author={Zhaorun Chen and Francesco Pinto and Minzhou Pan and Bo Li},
       year={2024},
-      eprint={2407.12784},
+      eprint={2412.06878},
       archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2407.12784}, 
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.06878}, 
 }
 ```
 
