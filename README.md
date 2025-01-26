@@ -35,14 +35,11 @@
 ## :book: Acknowledgement
 Please cite the paper as follows if you use the data or code from SafeWatch:
 ```
-@misc{chen2024safewatchefficientsafetypolicyfollowing,
-      title={SafeWatch: An Efficient Safety-Policy Following Video Guardrail Model with Transparent Explanations}, 
-      author={Zhaorun Chen and Francesco Pinto and Minzhou Pan and Bo Li},
-      year={2024},
-      eprint={2412.06878},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.06878}, 
+@article{chen2024safewatch,
+  title={Safewatch: An efficient safety-policy following video guardrail model with transparent explanations},
+  author={Chen, Zhaorun and Pinto, Francesco and Pan, Minzhou and Li, Bo},
+  journal={arXiv preprint arXiv:2412.06878},
+  year={2024}
 }
 ```
 
