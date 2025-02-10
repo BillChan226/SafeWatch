@@ -17,8 +17,11 @@
   <img src="assets/dataset.png" width="95%">
 </div>
 
+## Dataset Download
+Please download the dataset from [Zhaorun/SafeWatch-Bench](https://huggingface.co/datasets/Zhaorun/SafeWatch-Bench).
+
 ## Video Guardrail Inference
-First run the following script to get the model outputs for all the videos under the real and genai subsets:
+First run the following script to get the model outputs for all the videos under the real and genai subsets. Make sure the dataset paths are correct:
 ```
 python eval_benchmark.py -m model_name -c checkpoint_path
 ```
