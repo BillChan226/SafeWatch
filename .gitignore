@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+dataset/
+training_set/
+result/
+safewatch_bench/
 
 # C extensions
 *.so

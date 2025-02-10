@@ -13,23 +13,35 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBillChan226%2FSafeWatch&count_bg=%23FF3100&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false)](https://hits.seeyoufarm.com)
 [![GitHub Stars](https://img.shields.io/github/stars/BillChan226/SafeWatch?style=social)](https://github.com/BillChan226/SafeWatch/stargazers)
 
-<!-- This repository provides the official PyTorch implementation of the following paper:
-> [**SafeWatch: An Efficient Safety-Policy Following Video Guardrail Model with Transparent Explanations**]() <br>
-> [Zhaorun Chen](https://billchan226.github.io/)<sup>1</sup>,
-> [Francesco pinto](https://zhenxianglance.github.io/)<sup>2</sup>,
-> [Chaowei Xiao](https://xiaocw11.github.io/) <sup>3</sup>,
-> [Dawn Song](https://dawnsong.io/) <sup>4</sup>,
-> [Bo Li](https://aisecure.github.io/)<sup>1,2</sup>
->
-> <sup>1</sup>University of Chicago, <sup>2</sup>University of Illinois, Urbana-Champaign <br>
-<sup>3</sup>University of Wisconsin, Madison, <sup>4</sup>University of California, Berkeley <br> -->
-
 <div align="center">
   <img src="assets/dataset.png" width="95%">
 </div>
 
-### (🔥Code coming soon, please check the [Project page](https://safewatch-aiguard.github.io/) for more details)
+## Video Guardrail Inference
+First run the following script to get the model outputs for all the videos under the real and genai subsets:
+```
+python eval_benchmark.py -m model_name -c checkpoint_path
+```
+`checkpoint_path` is optional, if not provided, the model will be loaded from the default checkpoint specified by the model name.
 
+## :memo: Evaluation Scripts
+For evaluating per-category guardrail performance (ACC) and overall guardrail performance (Avg ACC, F1, AUPRC), please run the following scripts:
+```
+python metrics/eval_guardrail.py
+```
+
+For evaluating explanation quality, please first sample a subset of videos for evaluation by running:
+```
+python eval_judge/sample_exp_eval.py
+```
+Then run the following script to get the judge outputs:
+```
+python eval_judge/explanation_judge.py
+```
+Finally, run the following script to get the evaluation results:
+```
+python metrics/eval_explanation.py
+```
 
 
 ## :book: Acknowledgement
